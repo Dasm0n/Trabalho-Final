@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+       
+        let nome = prompt('digite seu nome');
+       
+        alert(`Olá ${nome}, Não se esqueca de clicar no link para acessar a Demo do Stable Diffusion`);</script>
+ 
+   
+    <style>
+
+        #titulo {
+  background-color: rgb(55, 0, 255);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  animation-name: animacaotitulo;
+  animation-duration: 3s;
+  
+} 
+@keyframes animacaotitulo {
+  0%   {background-color:rgb(0, 255, 242); left:0px; top:0px;}
+  25%  {background-color:rgb(0, 204, 255); left:0px; top: 100px;}
+  50%  {background-color:rgb(0, 140, 255); left:0px; top:90px;}
+  75%  {background-color:rgb(0, 45, 128); left:0px; top:100px;}
+  100% {background-color:rgb(55, 0, 255); left:0px; top:0px;}
+}
+        figure.imagemstable{
+            border: 10px solid white;
+            box-shadow: 1px 1px 4px black;
+        }
+   
+    </style>
+
+</head>
+<body>
+    <nav>
+    <a href="pagina2.html">Tutorial</a>
+    <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Clique aqui para acessar a Demo do Stable diffusion</a>
+    </nav>
+    <header>
+        <h1 id="titulo">Inteligencia Artificial que transformam texto em imagem</h1>
+      
+    </header>
+    <main>
+        <p> É evidente a supresa das pessoas ao saberem que belas artes e iagens podem ser feitas por inteligencias artificais nesse site você aprendera um pouco sobre o stable diffusion.</p>
+    </main>
+    <article>
+        <title>Stable diffusion</title>
+        <p>O stable diffusion é uma IA open source que já está na sua versão 2.1, para utilizala verifique se você tem uma placa de video compativel ou macbook m1 ou m2 </p>
+        <figure class="imagemstable">
+            <img src="foto1.png" height="400px" width="400px" alt="">
+           
+        
+            <p>A Chicken in a Landscape by Van Gogh</p>
+            
+        </figure>
+        <figure class="imagemstable">
+            <img src="foto2.png" height="400px" width="400px" alt="">
+           
+            
+            <p>A monkey taking a selfie</p>
+          
+        </figure> 
+    </article>
+
+
+
+</body>
+</html>
